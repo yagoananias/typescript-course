@@ -4,4 +4,4 @@ console.log(linguagem);
 
 const usuario = ["Yago", new Date(), true];
 
-usuario.push(2);
+//usuario.push(2);
