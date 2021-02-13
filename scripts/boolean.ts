@@ -7,6 +7,7 @@ admin = Boolean("1");
 let senha = "1234";
 let senhaSegura: boolean;
 
-senhaSegura = senha.length > 8;
+// parenteses simulam uma condição if
+senhaSegura = (senha.length > 8);
 
 console.log(senhaSegura);
