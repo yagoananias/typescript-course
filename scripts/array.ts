@@ -1,0 +1,1 @@
+const filmesCategorias: string[] = ["Comédia", "Drama", "Romance", "Aventura"];
