@@ -1,3 +1,3 @@
-let valor;
+let valor: any;
 
 console.log(typeof valor)
