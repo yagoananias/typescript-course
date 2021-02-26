@@ -7,3 +7,7 @@ function mostrarMensagem(texto: string | number | object): boolean {
 }
 
 mostrarMensagem("Yaguim");
+
+const show = (codigo: number) => {
+  return codigo;
+}
