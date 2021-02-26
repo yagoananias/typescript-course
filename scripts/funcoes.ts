@@ -8,6 +8,8 @@ function mostrarMensagem(texto: string | number | object): boolean {
 
 mostrarMensagem("Yaguim");
 
-const show = (codigo: number) => {
-  return codigo;
+const show = (codigo: number): number | Date | object => {
+
+  return new Date();
+  
 }
