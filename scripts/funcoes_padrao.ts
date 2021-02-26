@@ -1,8 +1,9 @@
-function enviarEmail(para: string, assunto: string = "Sem assunto"): void {
+function enviarEmail(para: string, assunto: string = "Sem assunto", remetente?: string): void {
 
   console.log({
     para,
-    assunto
+    assunto,
+    remetente
   });
 
 }
