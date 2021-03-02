@@ -1,9 +1,11 @@
-let endereco: {
-  logradouro: string,
-  numero: number,
-  bairro: string,
-  cidade: string
-};
+interface IEndereco {
+  logradouro: string;
+  numero: number;
+  bairro: string;
+  cidade: string;
+}
+
+let endereco: IEndereco;
 
 endereco = {
   logradouro: "Rua dos bobos",
